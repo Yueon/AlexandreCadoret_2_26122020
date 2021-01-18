@@ -1,20 +1,10 @@
-/* Définition des polices personnalisées */
-@font-face {
-    font-family: 'ralewaythin';
-    src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
-         url('raleway-variablefont_wght-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
 /*En-Tête de la page*/
 
 #bloc_page{
     width: 90%;
     margin: auto;
-    font-family: 'ralewaythin';
 }
-
 
 header{
     position: relative;
@@ -22,12 +12,14 @@ header{
     height: 5%;
     margin: 30px 50px 20px 30px;
 }
+
 .en_tete{
     display: flex;
     justify-content: space-between;
     width: 100%;
     height: 10%;
 }
+
 .logo{
     position: absolute;
     top: 0%;
@@ -36,6 +28,7 @@ header{
     width: 10%;
     height: auto;
 }
+
 .inscrire{
     position: absolute;
     top: 0%;
@@ -44,28 +37,34 @@ header{
     text-align: center;
     font-weight: bold;
 }
+
 .inscrire a{ 
     text-decoration: none;
     color: rgb(0, 81, 255);
 }
+
 nav{
     display: flex;
     justify-content: flex-end;
 }
+
 .hebergements{
     text-align: center;
     width: 10%;
     border-top: rgb(0, 89, 255) solid 2px;
 }
+
 .hebergements a{ 
     text-decoration: none;
     color: rgb(0, 89, 255);
 }
+
 .activites{
     text-align: center;
     width: 10%;
     margin-right: 12%;
 }
+
 .activites a{ 
     text-decoration: none;
     color: black;
@@ -80,9 +79,72 @@ nav{
     margin-left: 4%;
     margin-bottom: 20px;
 }
+
 .resume p{
     font-size: 20px;
     margin-left: 4%;
+}
+
+/*Barre de recherche*/
+
+.recherche{
+    position:relative;
+    width:900px;
+    height: 35px;
+    display:inline-block;
+    margin-left: 4%;
+}
+.recherche .map{
+    padding: 10px;
+    margin-top: 0%;
+    display: block;
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(238, 229, 229, 0.63);
+    border: 1px solid rgb(238, 229, 229, 0.63);
+    border-radius: 5px 0px 0px 5px ;
+}
+.recherche .champ{
+    width:300px;
+    height:35px;
+    float:left;
+    padding: 0%;
+    border-width: 1px;
+    border-style: solid;
+}
+.recherche .bouton_recherche{
+    width: 100px;
+    height: 35px;
+    padding: 0;
+    float:left;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: 1px solid rgb(0, 119, 255);
+    border-radius: 0px 5px 5px 0px;
+} 
+.recherche .bouton_loupe{
+    display: none;
+}   
+
+/*filtres*/
+
+.eco{
+    display: flex;
+    width: 10%;
+    height: 35px;
+    border: 2px solid red;
+    border-radius: 50px;
+
+}
+.eco img{
+    border: 2px solid rgb(97, 160, 212);
+    background-color: rgb(97, 160, 212);
+    border-radius: 100px;
+    padding: 5px;
+}
+.eco p{
+    margin: ;
 }
 
 
@@ -92,9 +154,9 @@ nav{
 
 
 
-
-
 @media all and (max-width: 1280px) {
+
+/*header*/
 
 .logo{
         position: relative;
@@ -118,7 +180,27 @@ nav{
     border-bottom: rgb(184, 184, 184) solid 2px;
 }
 
+/*recherche*/
 
+.recherche{
+    width: 100%;
+
+}
+.recherche .champ{
+    width: 75%;
+}
+.recherche .bouton_recherche{
+    display: none;
+}
+.recherche .bouton_loupe{
+    display: block;
+    color: white;
+    width: 40px;
+    height: 38px;
+    background-color: rgb(0, 119, 255);
+    border: 1px solid rgb(0, 119, 255);
+    border-radius: 10px 10px 10px 10px;
+}
 
 
 
