@@ -129,27 +129,71 @@ nav{
 
 /*filtres*/
 
-.eco{
+.filtre{
     display: flex;
-    width: 10%;
-    height: 35px;
-    border: 2px solid red;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.filtre h1{
+    margin-top: 0;
+    padding-top: 5%;
+}
+
+.selection{
+    display: flex;
+    height: 40px;
+    border: 2px solid rgba(238, 229, 229, 0.63);
     border-radius: 50px;
+    margin-left: 2%;
 
 }
-.eco img{
+.selection img{
     border: 2px solid rgb(97, 160, 212);
     background-color: rgb(97, 160, 212);
     border-radius: 100px;
     padding: 5px;
+    height: 25px;
+    width: 25px;
 }
-.eco p{
-    margin: ;
+.selection p{
+    margin: 0;
+    padding-top: 5%;
+    padding-left: 8%;
 }
 
+#money{
+    width: 10%;
+}
 
+#famille{
+    width: 10%;
+}
 
+#romantique{
+    width: 10%;
+}
 
+#animaux{
+    width: 12%;
+}
+
+.info{
+    display: flex;
+    width: 45%;
+    margin-left: 4%;
+}
+
+.info img{
+    width: 2%;
+    height: 15px;
+    margin-top: 2%
+}
+
+.info p{
+    margin-left: 2%;
+    margin-top: 2%;
+}
 
 
 
@@ -202,10 +246,37 @@ nav{
     border-radius: 10px 10px 10px 10px;
 }
 
+/*filtre*/
 
+.filtre{
+    flex-wrap: wrap;
+}
 
+.titre_filtre{
+    width: 100%;
+}
 
+.selection{
+    width: 0%;
+}
 
+#money{
+    width: 50%;
+    margin-bottom: 4%;
+}
+
+#famille{
+    width: 40%;
+}
+
+#romantique{
+    width: 45%;
+    margin-bottom: 4%;
+}
+
+#animaux{
+    width: 70%;
+}
 
 
 }
