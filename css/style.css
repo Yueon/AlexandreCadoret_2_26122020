@@ -224,7 +224,7 @@ nav{
 
 .hotel_populaire{
     width: 80%;
-    height: 112px;
+    height: 154px;
     margin-left: 10%;
     margin-bottom: 2%;
     display: flex;
@@ -262,6 +262,76 @@ nav{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+/*Hébergement de Marseille*/
+
+.hebergement{
+    width: 60%;
+    margin-left: 4%;
+    background-color: lightgray;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.hebergement_titre{
+    margin-top: 3%;
+}
+
+.hebergement_titre h1{
+    margin-left: 3%;
+}
+
+.hebergement_hotel{
+    width: 95%;
+    margin-left: 3%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hebergement_hotel_img{
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-bottom: 2%;
+    margin-right: 3%;
+}
+
+.hebergement_hotel_img img{
+    width: 98%;
+    height: 55%;
+    border-radius: 25px 25px 0px 0px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.hebergement_hotel h1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.hebergement_hotel p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5%;
+    font-size: 18px;
+}
+
+.hebergement_plus{
+    margin-left: 3%;
+}
+
+
+
+
+
+
+
+
 
 
 
