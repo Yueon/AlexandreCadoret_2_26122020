@@ -1,1 +1,62 @@
-<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart" class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   aria-hidden="true"
+   focusable="false"
+   data-prefix="fas"
+   data-icon="heart"
+   class="svg-inline--fa fa-heart fa-w-16"
+   role="img"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg963"
+   sodipodi:docname="heart-solid.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata969">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs967" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview965"
+     showgrid="false"
+     inkscape:zoom="1.6601562"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg963" />
+  <path
+     fill="currentColor"
+     d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+     id="path961" />
+  <path
+     style="fill:#0065fc;stroke-width:0.602353"
+     d="m 246.44709,477.96525 c -2.43811,-0.84862 -5.77729,-2.41514 -7.42041,-3.48116 -1.79094,-1.16191 -34.75622,-34.73686 -82.30591,-83.82808 C 113.09564,345.61658 68.09406,299.15654 56.717262,287.41147 36.195266,266.22517 30.074365,259.27679 24.270988,250.57882 14.725658,236.2725 7.7151358,219.90161 3.8932448,202.99294 -0.55704588,183.30413 -0.64465774,160.53867 3.6533185,140.64941 14.00436,92.749077 48.496597,53.370193 92.762353,38.915954 107.04808,34.25119 118.24011,32.520739 134.00773,32.538818 c 21.66821,0.02484 41.67937,4.743158 61.4558,14.4903 17.34781,8.550152 27.1401,16.068861 46.82203,35.950852 l 13.6926,13.831797 15.52151,-15.485062 c 16.67128,-16.632131 22.69248,-21.585128 35.39915,-29.119096 16.44067,-9.747903 35.29226,-16.255759 54.49514,-18.81255 7.46396,-0.993798 24.70001,-1.128732 31.95831,-0.250189 25.04864,3.031881 49.03499,13.321233 68.01818,29.177551 5.47167,4.570387 14.76572,14.101304 19.40422,19.898755 15.37215,19.212914 25.64604,43.244934 29.39,68.747184 2.03237,13.84356 1.54828,33.86136 -1.15612,47.80811 -4.26749,22.00758 -14.86277,44.69862 -29.1105,62.34353 -6.53983,8.09915 -202.3075,209.91771 -206.33993,212.71757 -5.56636,3.86494 -9.61816,5.19065 -16.65459,5.44924 -5.25875,0.19327 -6.58636,0.0255 -10.45644,-1.32156 z"
+     id="path971" />
+</svg>

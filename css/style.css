@@ -1,9 +1,19 @@
 
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*En-Tête de la page*/
 
 #bloc_page{
     width: 90%;
     margin: auto;
+    /*font-family: 'ralewaythin';*/
 }
 
 header{
@@ -40,7 +50,7 @@ header{
 
 .inscrire a{ 
     text-decoration: none;
-    color: rgb(0, 81, 255);
+    color: #0065FC;
 }
 
 nav{
@@ -51,12 +61,12 @@ nav{
 .nav_hebergements{
     text-align: center;
     width: 10%;
-    border-top: rgb(0, 89, 255) solid 2px;
+    border-top: #0065FC solid 2px;
 }
 
 .nav_hebergements a{ 
     text-decoration: none;
-    color: rgb(0, 89, 255);
+    color: #0065FC;
 }
 
 .nav_activites{
@@ -77,51 +87,58 @@ nav{
     height: 2%;
     margin-top: 3%;
     margin-left: 4%;
-    margin-bottom: 20px;
+    margin-bottom: 6px;
+    font-size: 27px;
 }
 
 .resume p{
     font-size: 20px;
     margin-left: 4%;
+    margin-top: 0%;
+    color: rgb(83, 82, 82);
 }
 
 /*Barre de recherche*/
 
 .recherche{
     position:relative;
-    width:900px;
+    width: 40%;
     height: 35px;
     display:inline-block;
     margin-left: 4%;
+    margin-bottom: 1%;
 }
 .recherche .map{
-    padding: 10px;
+    padding: 15px 10px 15px 10px;
     margin-top: 0%;
     display: block;
     float: left;
-    width: 15px;
-    height: 15px;
-    background-color: rgba(238, 229, 229, 0.63);
-    border: 1px solid rgb(238, 229, 229, 0.63);
-    border-radius: 5px 0px 0px 5px ;
+    width: 4%;
+    height: 18px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px 0px 0px 15px ;
 }
 .recherche .champ{
-    width:300px;
-    height:35px;
+    width: 36%;
+    height: 48px;
     float:left;
-    padding: 0%;
+    padding: 0% 0% 0% 2%;
     border-width: 1px;
     border-style: solid;
+    font-weight: bold;
+    font-size: 16px;
 }
 .recherche .bouton_recherche{
-    width: 100px;
-    height: 35px;
+    width: 20%;
+    height: 50px;
     padding: 0;
     float:left;
-    background-color: rgb(0, 119, 255);
+    background-color: #0065FC;
     color: white;
-    border: 1px solid rgb(0, 119, 255);
-    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 16px;
 } 
 .recherche .bouton_loupe{
     display: none;
@@ -138,6 +155,7 @@ nav{
 .filtre h1{
     margin-top: 0;
     padding-top: 5%;
+    font-size: 22px;
 }
 
 .selection{
@@ -149,21 +167,22 @@ nav{
 
 }
 .selection img{
-    border: 2px solid rgb(97, 160, 212);
-    background-color: rgb(97, 160, 212);
+    border: 2px solid #DEEBFF;
+    background-color: #DEEBFF;
     border-radius: 100px;
-    padding: 5px;
+    padding: 6px;
     height: 25px;
     width: 25px;
 }
 .selection p{
     margin: 0;
-    padding-top: 5%;
-    padding-left: 8%;
+    padding-top: 4%;
+    padding-left: 10%;
+    font-size: 20px;
 }
 
 #money{
-    width: 10%;
+    width: 13%;
 }
 
 #famille{
@@ -171,29 +190,31 @@ nav{
 }
 
 #romantique{
-    width: 10%;
+    width: 12%;
 }
 
 #animaux{
-    width: 12%;
+    width: 17%;
 }
 
 .info{
     display: flex;
     width: 45%;
     margin-left: 4%;
-    margin-bottom: 2%;
+    margin-bottom: 1.5%;
 }
 
 .info img{
-    width: 2%;
-    height: 15px;
+    width: 4%;
+    height: 20px;
     margin-top: 2%
 }
 
 .info p{
     margin-left: 2%;
     margin-top: 2%;
+    margin-bottom: 0%;
+    font-size: 16px;
 }
 
 /*les plus populaire*/
@@ -203,7 +224,7 @@ nav{
     right: 5%;
     width: 30%;
     border: 1px solid white;
-    background-color: lightgray;
+    background-color: #F2F2F2;
     border-radius: 25px;
 }
 
@@ -215,6 +236,8 @@ nav{
 
 .titre_populaire h1{
     margin-left: 10%;
+    font-size: 28px;
+    margin-bottom: 3%;
 }
 
 .titre_populaire img{
@@ -262,13 +285,20 @@ nav{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.star{
+    display: flex;
+}
+.star img{
+ width: 6%;
+ margin-top: 34%;
+}
 
 /*Hébergement de Marseille*/
 
 .hebergement{
     width: 60%;
     margin-left: 4%;
-    background-color: lightgray;
+    background-color: #F2F2F2;
     border: 1px solid white;
     border-radius: 25px;
 }
@@ -279,6 +309,7 @@ nav{
 
 .hebergement_titre h1{
     margin-left: 3%;
+    font-size: 28px;
 }
 
 .hebergement_hotel{
@@ -323,6 +354,7 @@ nav{
 
 .hebergement_plus{
     margin-left: 3%;
+    font-size: 15px;
 }
 
 /* activité */
@@ -463,53 +495,50 @@ nav{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 
 .footer{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    background-color: #F2F2F2;
+    padding-right: 4%;
+    margin-left: 0px;
+}
+
+.a_propos{
+    width: 25%;
     margin-left: 4%;
-    margin-right: 0px;
-    background-color: lightgray;
 }
 
 .a_propos h1{
-    margin-left: 15%;
+    font-size: 20px;
 }
 
 .nos_hebergements{
-    margin-right: -4%;
-    width: 18%;
+    width: 25%;
 }
 
 .nos_hebergements h1{
-    margin-left: 13%;
+    font-size: 20px;
 }
 
 .assistance{
-    margin-right: 18%;
+    width: 25%;
+    margin-right: 10%;
 }
 
 .assistance h1{
-    margin-left: 15%;
+    font-size: 20px;
 }
 
 .puce{
     list-style-type: none;
+    padding-left: 0%;
+}
+
+.puce li{
+    margin-bottom: 2%;
 }
 
 
@@ -636,6 +665,109 @@ nav{
     box-shadow: 1px 1px 100px lightgray;
     margin-bottom: 5%;
 }
+
+/*section activites*/
+
+.activites_rangee{
+    display: block;
+}
+
+.vieux_port{
+    width: 100%;
+    padding-bottom: 1%;
+    margin-bottom: 10%;
+}
+
+.vieux_port img{
+    height: 155px;
+}
+
+.deuxieme_rangee{
+    width: 100%;
+    margin-left: 0%;
+}
+
+.pomegues{
+    padding-bottom: 1%;
+    margin-bottom: 10%;
+}
+
+.pomegues img{
+    height: 155px;
+}
+
+.frioul{
+    padding-bottom: 1%;
+    margin-bottom: 10%;
+}
+
+.frioul img{
+    height: 155px;
+}
+
+
+.calanques{
+    width: 100%;
+    margin-left: 0%;
+    padding-bottom: 1%;
+    margin-bottom: 10%;
+}
+
+.calanques img{
+    height: 155px;
+}
+
+.quatrieme_rangee{
+    width: 100%;
+    margin-left: 0%;
+}
+
+.longchamp{
+    padding-bottom: 1%;
+    margin-bottom: 10%;
+}
+
+.longchamp img{
+    height: 155px;
+}
+
+/*footer*/
+
+.footer{
+    display: block;
+    margin-left: -28px;
+    padding-right: 15%;
+}
+
+.a_propos{
+    width: 100%;
+    margin-left: 12%;
+    margin-bottom: 7%;
+    padding-top: 7%;
+}
+
+.nos_hebergements{
+    width: 100%;
+    margin-left: 12%;
+    margin-bottom: 7%;
+
+}
+
+.assistance{
+    width: 100%;
+    margin-left: 12%;
+    padding-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
