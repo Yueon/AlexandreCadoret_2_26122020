@@ -13,7 +13,7 @@
 #bloc_page{
     width: 90%;
     margin: auto;
-    /*font-family: 'ralewaythin';*/
+    font-family: 'ralewaythin';
 }
 
 header{
@@ -179,6 +179,7 @@ nav{
     padding-top: 4%;
     padding-left: 10%;
     font-size: 20px;
+    font-weight: bold;
 }
 
 #money{
@@ -276,7 +277,7 @@ nav{
 }
 
 .populaire_text h1{
-    font-size: 21px;
+    font-size: 22px;
     margin-top: 1%;
     margin-bottom: 1%;
 }
@@ -284,13 +285,16 @@ nav{
 .populaire_text p{
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 18px;
 }
-.star{
+.star_populaire{
     display: flex;
+    width: 10%;
+    margin-top: 18%;
 }
-.star img{
- width: 6%;
- margin-top: 34%;
+.star_populaire img{
+    width: 80%;
+    margin-top: 25%;
 }
 
 /*Hébergement de Marseille*/
@@ -352,11 +356,21 @@ nav{
     font-size: 18px;
 }
 
+.star_hebergement{
+    width: 6%;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
 .hebergement_plus{
     margin-left: 3%;
     font-size: 15px;
 }
 
+.bold{
+    font-weight: bold;
+}
 /* activité */
 
 .activites{
@@ -364,6 +378,10 @@ nav{
     margin-top: 4%;
     width: 100%;
     margin-bottom: 5%;
+}
+
+.activites p{
+    font-weight: bold;
 }
 
 .activites_rangee{
@@ -493,6 +511,10 @@ nav{
     margin-left: 5%;
 }
 
+.soulignement{
+    text-decoration: none;
+    color: black;
+}
 
 
 /* footer */
@@ -545,20 +567,24 @@ nav{
 
 
 
-
-
-
 @media all and (max-width: 1280px) {
 
 /*header*/
 
+header{
+    margin-left: 0%;
+}
+
 .logo{
         position: relative;
+        width: 50%;
+        text-align: left;
 }
 .inscrire{
     position: relative;
     margin-top: 20px;
     margin-left: 50%;
+    text-align: right;
 
 }
 nav{
@@ -572,6 +598,7 @@ nav{
 .nav_activites{
     width: 50%;
     border-bottom: rgb(184, 184, 184) solid 2px;
+    margin-right: 0%;
 }
 
 /*recherche*/
@@ -589,8 +616,8 @@ nav{
 .recherche .bouton_loupe{
     display: block;
     color: white;
-    width: 40px;
-    height: 38px;
+    width: 48px;
+    height: 48px;
     background-color: rgb(0, 119, 255);
     border: 1px solid rgb(0, 119, 255);
     border-radius: 10px 10px 10px 10px;
@@ -608,6 +635,10 @@ nav{
 
 .selection{
     width: 0%;
+}
+
+.selection p{
+    padding-left: 5%;
 }
 
 #money{
@@ -648,6 +679,20 @@ nav{
     margin-bottom: 5%;
 }
 
+.populaire_text h1{
+    font-size: 17px;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+.populaire_text p{
+    font-size: 16px;
+}
+
+.star_populaire{
+    width: 13%;
+    margin-top: 27%;
+}
 /*section hebergement*/
 
 .hebergement{
@@ -759,18 +804,15 @@ nav{
     padding-bottom: 5%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
+@media all and (max-width: 1280px) and (min-width: 600px) {
+
+.star_populaire{
+    display: none;
+}
+
+.star_hebergement{
+    display: none;
+}
+}
