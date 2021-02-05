@@ -808,11 +808,61 @@ nav{
 
 @media all and (max-width: 1280px) and (min-width: 600px) {
 
+.titre_filtre p{
+    padding-top: 2%;
+}
+
+.hebergement_hotel_img{
+    height: 400px;
+}
+
+.hebergement_hotel_img img{
+    height: 65%; 
+    object-fit: cover;
+    object-position: 0% 90%;
+    overflow: hidden;
+}
+
+.hebergement_hotel h1{
+    font-size: 25px;
+}
+
+.vieux_port img{
+    object-position: 0% 78%;
+    height: 300px;
+}
+
+.pomegues img{
+    object-position: 0% 52%;
+    height: 300px;
+}
+
+.frioul img{
+    object-position: 0% 54%;
+    height: 300px;
+}
+
+.calanques img{
+    object-position: 0% 70%;
+    height: 300px;
+}
+
+.garde img{
+    object-position: 0% 35%;
+    height: 300px;
+}
+
+.longchamp img{
+    object-position: 0% 52%;
+    height: 300px;
+}
+
 .star_populaire{
-    display: none;
+    width: 6%;
+    margin-top: 7%;
 }
 
 .star_hebergement{
-    display: none;
+    width: 12%;
 }
 }
