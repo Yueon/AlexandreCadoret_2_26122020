@@ -247,9 +247,9 @@ nav{
 }
 
 .hotel_populaire{
-    width: 80%;
+    width: 84%;
     height: 154px;
-    margin-left: 10%;
+    margin-left: 7%;
     margin-bottom: 2%;
     display: flex;
     background-color: white;
@@ -569,6 +569,10 @@ nav{
 
 @media all and (max-width: 1280px) {
 
+#bloc_page{
+    width: 100%;
+}
+
 /*header*/
 
 header{
@@ -584,8 +588,7 @@ header{
     position: relative;
     margin-top: 20px;
     margin-left: 50%;
-    text-align: right;
-
+    width: 20%;
 }
 nav{
     justify-content: center;
@@ -608,7 +611,7 @@ nav{
 
 }
 .recherche .champ{
-    width: 75%;
+    width: 70%;
 }
 .recherche .bouton_recherche{
     display: none;
@@ -639,6 +642,7 @@ nav{
 
 .selection p{
     padding-left: 5%;
+    font-size: 17px;
 }
 
 #money{
@@ -651,7 +655,7 @@ nav{
 }
 
 #romantique{
-    width: 45%;
+    width: 51%;
     margin-bottom: 4%;
 }
 
@@ -662,6 +666,7 @@ nav{
 
 .info{
     width: 100%;
+    margin-left: 0%;
 }
 
 .info img{
@@ -674,15 +679,25 @@ nav{
 .les_plus_populaires{
     position: relative;
     width: 100%;
-    margin-left: 4%;
     border-radius: 0;
     margin-bottom: 5%;
+    right: 0%;
+}
+
+.titre_populaire h1{
+    font-size: 24px;
+    margin-left: 5%;
 }
 
 .populaire_text h1{
     font-size: 17px;
     margin-top: 8%;
     margin-bottom: 1%;
+}
+
+.hotel_populaire{
+    width: 90%;
+    margin-left: 5%;
 }
 
 .populaire_text p{
@@ -693,34 +708,57 @@ nav{
     width: 13%;
     margin-top: 27%;
 }
+
 /*section hebergement*/
 
 .hebergement{
     width: 100%;
     background-color: white;
+    margin-left: 0%;
+}
 
+.hebergement_titre h1{
+    font-size: 24px;
+    margin-left: 5%;
 }
 
 .hebergement_hotel{
     display: block;
+    width: 100%;
+    margin-left: 0%;
 }
 
 .hebergement_hotel_img{
     width: 90%;
     box-shadow: 1px 1px 100px lightgray;
     margin-bottom: 5%;
+    margin-left: 5%;
 }
 
+.hebergement_plus{
+    font-size: 12px;
+    margin-left: 5%;
+}
 /*section activites*/
+
+.activites{
+    margin-left: 0%;
+}
+
+.activites_titre h1{
+    font-size: 24px;
+    margin-left: 5%;
+}
 
 .activites_rangee{
     display: block;
 }
 
 .vieux_port{
-    width: 100%;
+    width: 90%;
     padding-bottom: 1%;
     margin-bottom: 10%;
+    margin-left: 5%;
 }
 
 .vieux_port img{
@@ -735,6 +773,8 @@ nav{
 .pomegues{
     padding-bottom: 1%;
     margin-bottom: 10%;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .pomegues img{
@@ -744,6 +784,8 @@ nav{
 .frioul{
     padding-bottom: 1%;
     margin-bottom: 10%;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .frioul img{
@@ -752,8 +794,8 @@ nav{
 
 
 .calanques{
-    width: 100%;
-    margin-left: 0%;
+    width: 90%;
+    margin-left: 5%;
     padding-bottom: 1%;
     margin-bottom: 10%;
 }
@@ -767,9 +809,16 @@ nav{
     margin-left: 0%;
 }
 
+.garde{
+    margin-left: 5%;
+    width: 90%;
+}
+
 .longchamp{
     padding-bottom: 1%;
     margin-bottom: 10%;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .longchamp img{
@@ -808,7 +857,7 @@ nav{
 
 @media all and (max-width: 1280px) and (min-width: 600px) {
 
-.titre_filtre p{
+.selection p{
     padding-top: 2%;
 }
 
