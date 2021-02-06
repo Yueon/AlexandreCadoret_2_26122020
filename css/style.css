@@ -176,9 +176,8 @@ nav{
 }
 .selection p{
     margin: 0;
-    padding-top: 4%;
-    padding-left: 10%;
-    font-size: 20px;
+    padding-left: 4%;
+    font-size: 90%;
     font-weight: bold;
 }
 
@@ -186,16 +185,32 @@ nav{
     width: 13%;
 }
 
+#money p{
+    padding-top: 6%;
+}
+
 #famille{
     width: 10%;
+}
+
+#famille p{
+    padding-top: 8%;
 }
 
 #romantique{
     width: 12%;
 }
 
+#romantique p{
+    padding-top: 6%;
+}
+
 #animaux{
     width: 17%;
+}
+
+#animaux p{
+    padding-top: 5%;
 }
 
 .info{
@@ -857,7 +872,19 @@ nav{
 
 @media all and (max-width: 1280px) and (min-width: 600px) {
 
-.selection p{
+#money p{
+    padding-top: 2%;
+}
+
+#famille p{
+    padding-top: 2%;
+}
+
+#romantique p{
+    padding-top: 2%;
+}
+
+#animaux p{
     padding-top: 2%;
 }
 
@@ -908,7 +935,7 @@ nav{
 
 .star_populaire{
     width: 6%;
-    margin-top: 7%;
+    margin-top: 3%;
 }
 
 .star_hebergement{
