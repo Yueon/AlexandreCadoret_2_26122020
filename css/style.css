@@ -274,25 +274,29 @@ nav{
     margin-left: 5%;
 }
 
-.populaire_text h1{
+.populaire_text_text{
+    height: 50%;
+}
+
+.populaire_text_text h1{
     font-size: 22px;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
-.populaire_text p{
+.populaire_text_text p{
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 18px;
 }
 .star_populaire{
     display: flex;
-    width: 10%;
+    width: 50%;
     align-items: flex-end;
-    height: 40%;
+    height: 30%;
 }
 .star_populaire img{
-    width: 80%;
+    width: 20%;
 }
 
 /*Hébergement de Marseille*/
@@ -697,9 +701,9 @@ nav{
     margin-top: 3%;
 }
 
-.populaire_text h1{
+.populaire_text_text h1{
     font-size: 17px;
-    margin-top: 8%;
+    margin-top: 5%;
     margin-bottom: 1%;
 }
 
@@ -708,12 +712,8 @@ nav{
     margin-left: 5%;
 }
 
-.populaire_text p{
+.populaire_text_text p{
     font-size: 16px;
-}
-
-.star_populaire{
-    width: 13%;
 }
 
 /*section hebergement*/
@@ -872,22 +872,9 @@ nav{
     right: 5%;
 }
 
-#money p{
-    padding-top: 2%;
+#animaux{
+    width: 55%;
 }
-
-#famille p{
-    padding-top: 2%;
-}
-
-#romantique p{
-    padding-top: 2%;
-}
-
-#animaux p{
-    padding-top: 2%;
-}
-
 .hebergement_hotel_img{
     height: 400px;
 }
@@ -934,8 +921,7 @@ nav{
 }
 
 .star_populaire{
-    width: 6%;
-    margin-top: 3%;
+    width: 32%;
 }
 
 .star_hebergement{
