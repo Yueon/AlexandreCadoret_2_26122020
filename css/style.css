@@ -572,7 +572,7 @@ nav{
 @media all and (max-width: 1280px) {
 
 #bloc_page{
-    width: 100%;
+    width: 92%;
 }
 
 /*header*/
@@ -608,12 +608,24 @@ nav{
 
 /*recherche*/
 
+.resume{
+    margin-bottom: 10%;
+}
+
+.resume h1{
+    font-size: 20px;
+}
+
+.resume p{
+    font-size: 14px;
+}
+
 .recherche{
     width: 100%;
     display: block;
 }
 .recherche .champ{
-    width: 80%;
+    width: 75%;
 }
 .recherche .bouton_recherche{
     display: none;
@@ -635,7 +647,13 @@ nav{
 .filtre{
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 10%;
 }
+
+.filtre h1{
+    font-size: 20px;
+}
+
 
 .titre_filtre{
     width: 100%;
@@ -689,7 +707,7 @@ nav{
 }
 
 .titre_populaire h1{
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 5%;
     margin-top: 3%;
 }
@@ -864,8 +882,20 @@ nav{
 
 @media all and (max-width: 1280px) and (min-width: 600px) {
 
+.resume{
+    margin-bottom: 5%;
+}
+
+.filtre{
+    margin-top: 7%;
+}
+
+.filtre h1{
+    padding-top: 0%;
+}
+
 .recherche .champ{
-    width: 85%;
+    width: 84%;
 }
 
 .recherche .bouton_loupe{
